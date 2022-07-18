@@ -1,0 +1,1 @@
+javascript: (function() { var elemBody = document.getElementsByTagName('body')[0]; var elemForm = document.createElement('form'); elemForm.appendChild(document.createElement('textarea')); elemForm.appendChild(document.createElement('INPUT')); elemBody.appendChild(elemForm);})()
