@@ -1,1 +1,5 @@
-javascript: (function() { var elemBody = document.getElementsByTagName('body')[0]; var elemForm = document.createElement('form'); elemForm.appendChild(document.createElement('textarea')); elemForm.appendChild(document.createElement('INPUT')); elemBody.appendChild(elemForm);})()
+javascript: (function() { 
+alert("This is an alert message box.");
+alert('This is a numer: ' + 100);
+alert(100);
+alert(Date());})()
