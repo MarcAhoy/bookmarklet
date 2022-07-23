@@ -1,11 +1,5 @@
 javascript: (function() { 
-alert("Enter message after following prompt");
-var a = prompt("Enter message", "");
+var a = prompt("Enter URL", "");
 alert(a);
-var xhr = new XMLHttpRequest();
-xhr.open("POST", 'http://crapchat.epizy.com/test.php', true);
-xhr.setRequestHeader('Content-Type', 'application/json');
-xhr.send(JSON.stringify({
-    value: a
-}));
-alert(Date());})()
+window.open(a,'POPUP', 'width=300,height=450,left=100,top=100')
+})()
